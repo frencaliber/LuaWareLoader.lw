@@ -1,0 +1,10 @@
+if game.PlaceId == 13822889 then
+        loadstring(game:HttpGet('https://scripts.luawl.com/15670/LuaWareLT2.lua'))()
+    elseif game.PlaceId == 11257760806 then
+        loadstring(game:HttpGet('https://scripts.luawl.com/16224/LuaWareBackAlley.lua'))()
+    elseif game.PlaceId == 189707 then
+        loadstring(game:HttpGet('https://scripts.luawl.com/16965/LuaWareNaturalDisasters.lua'))()
+    else
+game.Players.LocalPlayer:Kick("LuaWare Doesnt Support This Game! Discord Invite has been copied")
+setclipboard("https://discord.gg/xfmxr9cRCC")
+    end
