@@ -1,3 +1,4 @@
+--Secured By Luraph Obfuscator And LuaGuard
 --Made By 50CalSpecialist#8038
 --LuaWare Softwares
 
@@ -14,6 +15,8 @@ if game.PlaceId == 13822889 then
         loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4294/TapppingSimulator.lua'))()
         elseif game.PlaceId == 413424176 then
         loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4294/CloneTyccon2.lua'))()
+        elseif game.PlaceId == 9938675423 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/Oaklands/main/LuaWare.wtf",true))()
     else
 game.Players.LocalPlayer:Kick("LuaWare Doesnt Support This Game! Discord Invite has been copied")
 setclipboard("https://discord.gg/xfmxr9cRCC")
