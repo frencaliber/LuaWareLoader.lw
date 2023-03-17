@@ -1,10 +1,23 @@
+--Made By 50CalSpecialist#8038
+--LuaWare Softwares
+
+function LuaWareLoader()
 if game.PlaceId == 13822889 then
-        loadstring(game:HttpGet('https://scripts.luawl.com/15670/LuaWareLT2.lua'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/luawareloader.wtf/main/watchoyodidlt2",true))()
     elseif game.PlaceId == 11257760806 then
         loadstring(game:HttpGet('https://scripts.luawl.com/16224/LuaWareBackAlley.lua'))()
     elseif game.PlaceId == 189707 then
         loadstring(game:HttpGet('https://scripts.luawl.com/16965/LuaWareNaturalDisasters.lua'))()
+        elseif game.PlaceId == 1215581239 then
+        loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4294/LuaWareDoomSpire.lua'))()
+        elseif game.PlaceId == 9498006165 then
+        print("Coming Soon")
+        elseif game.PlaceId == 413424176 then
+        print("Coming Soon")
     else
 game.Players.LocalPlayer:Kick("LuaWare Doesnt Support This Game! Discord Invite has been copied")
 setclipboard("https://discord.gg/xfmxr9cRCC")
     end
+    end
+    
+    LuaWareLoader()
