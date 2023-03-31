@@ -6,19 +6,26 @@ function LuaWareLoader()
 if game.PlaceId == 13822889 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/luawareloader.wtf/main/watchoyodidlt2",true))()
     elseif game.PlaceId == 11257760806 then
-        loadstring(game:HttpGet('https://scripts.luawl.com/16224/LuaWareBackAlley.lua'))()
+        game.Players.LocalPlayer:Kick("Script is patched join discord for updates.")
+setclipboard("https://discord.gg/xfmxr9cRCC")
     elseif game.PlaceId == 189707 then
-        loadstring(game:HttpGet('https://scripts.luawl.com/16965/LuaWareNaturalDisasters.lua'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/naturaldisaster",true))()
         elseif game.PlaceId == 1215581239 then
-        loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4294/LuaWareDoomSpire.lua'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/doomspire",true))()
         elseif game.PlaceId == 9498006165 then
-        loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4294/TapppingSimulator.lua'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/tappingsimulator",true))()
         elseif game.PlaceId == 413424176 then
-        loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4294/CloneTyccon2.lua'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/clonetycoon",true))()
         elseif game.PlaceId == 9938675423 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/Oaklands/main/LuaWare.wtf",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/oaklands",true))()
         elseif game.PlaceId == 8568266872 then
-        loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4294/18085/LuaWareKP5OCalOnTop.lua'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/ktmsp",true))()
+        elseif game.PlaceId == 6403373529 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/slap-battles",true))()
+        elseif game.PlaceId == 566399244 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/elementalgrounds",true))()
+        elseif game.PlaceId == 9571238478 then
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/raiseapeter",true))()
     else
 game.Players.LocalPlayer:Kick("LuaWare Doesnt Support This Game! Discord Invite has been copied")
 setclipboard("https://discord.gg/xfmxr9cRCC")
