@@ -24,7 +24,7 @@ setclipboard("https://discord.gg/xfmxr9cRCC")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/slap-battles",true))()
         elseif game.PlaceId == 566399244 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/elementalgrounds",true))()
-        elseif game.PlaceId == 9571238478 then
+        elseif game.PlaceId == 9772878203 then
        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/raiseapeter",true))()
     else
 game.Players.LocalPlayer:Kick("LuaWare Doesnt Support This Game! Discord Invite has been copied")
