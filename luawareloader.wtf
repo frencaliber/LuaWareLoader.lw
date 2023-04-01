@@ -2,7 +2,6 @@
 --Made By 50CalSpecialist#8038
 --LuaWare Softwares
 
-function LuaWareLoader()
 if game.PlaceId == 13822889 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/LumberTycoonLW",true))()
     elseif game.PlaceId == 11257760806 then
@@ -30,6 +29,3 @@ setclipboard("https://discord.gg/xfmxr9cRCC")
 game.Players.LocalPlayer:Kick("LuaWare Doesnt Support This Game! Discord Invite has been copied")
 setclipboard("https://discord.gg/xfmxr9cRCC")
     end
-    end
-    
-    LuaWareLoader()
