@@ -3,29 +3,52 @@
 --LuaWare Softwares
 
 if game.PlaceId == 13822889 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/LumberTycoonLW",true))()
-    elseif game.PlaceId == 11257760806 then
-        game.Players.LocalPlayer:Kick("Script is patched join discord for updates.")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/LumberTycoonLW",true))()
+elseif game.PlaceId == 11257760806 then
+    game.Players.LocalPlayer:Kick("Script is patched join discord for updates.")
 setclipboard("https://discord.gg/xfmxr9cRCC")
-    elseif game.PlaceId == 189707 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/naturaldisaster",true))()
-        elseif game.PlaceId == 1215581239 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/doomspire",true))()
-        elseif game.PlaceId == 9498006165 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/tappingsimulator",true))()
-        elseif game.PlaceId == 413424176 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/clonetycoon",true))()
-        elseif game.PlaceId == 9938675423 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/oaklands",true))()
-        elseif game.PlaceId == 8568266872 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/ktmsp",true))()
-        elseif game.PlaceId == 6403373529 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/slap-battles",true))()
-        elseif game.PlaceId == 566399244 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/elementalgrounds",true))()
-        elseif game.PlaceId == 9772878203 then
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/raiseapeter",true))()
-    else
+elseif game.PlaceId == 189707 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/naturaldisaster",true))()
+    elseif game.PlaceId == 1215581239 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/doomspire",true))()
+    elseif game.PlaceId == 9498006165 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/tappingsimulator",true))()
+    elseif game.PlaceId == 413424176 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/clonetycoon",true))()
+    elseif game.PlaceId == 9938675423 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/oaklands",true))()
+    elseif game.PlaceId == 8568266872 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/ktmsp",true))()
+    elseif game.PlaceId == 6403373529 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/slap-battles",true))()
+    elseif game.PlaceId == 566399244 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/elementalgrounds",true))()
+    elseif game.PlaceId == 9772878203 then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/raiseapeter",true))()
+else
 game.Players.LocalPlayer:Kick("LuaWare Doesnt Support This Game! Discord Invite has been copied")
 setclipboard("https://discord.gg/xfmxr9cRCC")
-    end
+end
+
+pcall(function()
+    local JSONEncode, JSONDecode, GenerateGUID = 
+  game.HttpService.JSONEncode, 
+  game.HttpService.JSONDecode,
+  game.HttpService.GenerateGUID
+  local Request = syn and syn.request or request
+  Request({
+      Url = "http://127.0.0.1:6463/rpc?v=1",
+      Method = "POST",
+      Headers = {
+          ["Content-Type"] = "application/json",
+          ["Origin"] = "https://discord.com"
+      },
+      Body = JSONEncode(game.HttpService, {
+          cmd = "INVITE_BROWSER",
+          args = {
+              code = "C6SWVKVxXh"
+         },
+         nonce = GenerateGUID(game.HttpService, false)
+     }),
+  })
+end)
