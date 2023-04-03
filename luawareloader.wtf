@@ -1,6 +1,9 @@
+--LUA is fireee
 --Secured By Luraph Obfuscator And LuaGuard
---Made By 50CalSpecialist#8038
+--Made By 50CalSpecialist#0001
 --LuaWare Softwares
+--To Check Script Engines view the scriptsstorage repository or copy the link on the loadstring to view full engine [Obfuscated]
+print("LuaWare Loader Succes")
 
 if game.PlaceId == 13822889 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/LumberTycoonLW",true))()
@@ -30,6 +33,8 @@ game.Players.LocalPlayer:Kick("LuaWare Doesnt Support This Game! Discord Invite 
 setclipboard("https://discord.gg/xfmxr9cRCC")
 end
 
+
+--Discord Auto-Invite Link [ENGINE]
 pcall(function()
     local JSONEncode, JSONDecode, GenerateGUID = 
   game.HttpService.JSONEncode, 
@@ -52,3 +57,7 @@ pcall(function()
      }),
   })
 end)
+
+
+--Loader Is 63 Lines
+-----------------------------LuaWare Softwares---------------------------------------------
