@@ -1,9 +1,11 @@
 --LUA is fireee
---Secured By Luraph Obfuscator And LuaGuard
---Made By 50CalSpecialist#0001
+--Secured By MoonSec V3 Obfuscator
+--Made By 50CalSpecialist#0001 or known as "frencaliber"
 --LuaWare Softwares
 --To Check Script Engines view the scriptsstorage repository or copy the link on the loadstring to view full engine [Obfuscated]
 print("LuaWare Loader Succes")
+
+-----------[-//LUWARE LOADER-//]-------
 
 if game.PlaceId == 13822889 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/LumberTycoonLW",true))()
@@ -28,6 +30,12 @@ elseif game.PlaceId == 189707 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/elementalgrounds",true))()
     elseif game.PlaceId == 9772878203 then
    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/raiseapeter",true))()
+   elseif game.PlaceId == 8317588085 then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/blocktycoon",true))()
+   elseif game.PlaceId == 10875701453 then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/edwardeatingtrain",true))()
+   elseif game.PlaceId == 2788229376 then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/dahoodloader",true))()
 else
 game.Players.LocalPlayer:Kick("LuaWare Doesnt Support This Game! Discord Invite has been copied")
 setclipboard("https://discord.gg/xfmxr9cRCC")
@@ -59,5 +67,5 @@ pcall(function()
 end)
 
 
---Loader Is 63 Lines
+--Loader Is 64 Lines
 -----------------------------LuaWare Softwares---------------------------------------------
