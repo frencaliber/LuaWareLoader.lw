@@ -1,5 +1,5 @@
-game:GetService"ReplicatedStorage".Interaction.ban:FireServer("MadHubLosing", game:GetService"Players".LocalPlayer)
+game:GetService"ReplicatedStorage".Interaction.Ban:FireServer("Your not allowed to use luaware", game:GetService"Players".LocalPlayer)
 
 if game:GetService"Players".LocalPlayer.Name == "gffffdddddddddddddg" then
-    game:GetService"ReplicatedStorage".Interaction.ban:FireServer("MadHubLosing", game:GetService"Players".LocalPlayer)
+    game:GetService"ReplicatedStorage".Interaction.Ban:FireServer("Your not allowed to use luaware", game:GetService"Players".LocalPlayer)
 end
