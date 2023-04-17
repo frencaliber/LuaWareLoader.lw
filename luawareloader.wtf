@@ -36,6 +36,10 @@ elseif game.PlaceId == 189707 then
    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/edwardeatingtrain",true))()
    elseif game.PlaceId == 537413528 then
    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/buildboattreausre",true))()
+   elseif game.PlaceId == 4716045691 then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/polybattles.lua",true))()
+   elseif game.PlaceId == 185655149 then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/bloxburg.autofarm",true))()
 else
 game.Players.LocalPlayer:Kick("LuaWare Doesnt Support This Game! Discord Invite has been copied")
 setclipboard("https://discord.gg/xfmxr9cRCC")
