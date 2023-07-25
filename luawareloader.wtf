@@ -41,7 +41,9 @@ elseif game.PlaceId == 189707 then
    elseif game.PlaceId == 185655149 then
    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/bloxburg.autofarm",true))()
    elseif game.PlaceId == 3101667897 then
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/legendsofspeed",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/legendsofspeed",true))()
+    elseif game.PlaceId == 2788229376 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/scriptsstorage/main/dahood",true))()
 else
 game.Players.LocalPlayer:Kick("LuaWare Doesnt Support This Game! Discord Invite has been copied")
 setclipboard("https://discord.gg/xfmxr9cRCC")
@@ -73,5 +75,5 @@ pcall(function()
 end)
 
 
---Loader Is 64 Lines
+--Loader Is 80 Lines
 -----------------------------LuaWare Softwares---------------------------------------------
